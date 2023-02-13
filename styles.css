@@ -1,11 +1,11 @@
-.container {
+.scene-1 {
   width: 200px;
   height: 200px;
   perspective: 1000px;
   margin: 100px auto 0;
 }
 
-.cube {
+.cube-1 {
   transform-style: preserve-3d;
   width: 100%;
   height: 100%;
@@ -22,29 +22,29 @@
   border: 2px solid white;
 }
 
-.scene-5 {
+.top {
 	background-color: red;
   transform: rotateX(90deg) translateZ(100px);
 }
-.scene-6 {
+.bottom {
 	background-color: blue;
   transform: rotateX(-90deg) translateZ(100px);
 }
 
-.scene-3 {
+.right {
 	background-color: yellow;
   transform: rotateY(90deg) translateZ(100px);
 }
-.scene-4 {
+.left {
 	background-color: purple;
   transform: rotateY(-90deg) translateZ(100px);
 }
 
-.scene-1 {
+.front {
 	background-color: green;
   transform: rotateX(0deg) translateZ(100px);
 }
-.scene-2 {
+.back {
 	background-color: pink;
   transform: rotateX(-180deg) translateZ(100px);
 }
@@ -57,7 +57,7 @@
     transform: rotateX(360deg) rotateY(360deg);
   }
 }
-.cube {
+.cube-1 {
   transform-style: preserve-3d;
   width: 100%;
   height: 100%;
