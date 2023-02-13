@@ -22,29 +22,29 @@
   border: 2px solid white;
 }
 
-.top {
+.scene-5 {
 	background-color: red;
   transform: rotateX(90deg) translateZ(100px);
 }
-.bottom {
+.scene-6 {
 	background-color: blue;
   transform: rotateX(-90deg) translateZ(100px);
 }
 
-.right {
+.scene-3 {
 	background-color: yellow;
   transform: rotateY(90deg) translateZ(100px);
 }
-.left {
+.scene-4 {
 	background-color: purple;
   transform: rotateY(-90deg) translateZ(100px);
 }
 
-.front {
+.scene-1 {
 	background-color: green;
   transform: rotateX(0deg) translateZ(100px);
 }
-.back {
+.scene-2 {
 	background-color: pink;
   transform: rotateX(-180deg) translateZ(100px);
 }
